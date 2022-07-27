@@ -42,20 +42,14 @@ export default function Register() {
             Rahil 's Gallery
           </Typography>
           <div className="mt-3 btngroup">
-            <span
-              className={change ? "btn1" : "btn"}
-              onClick={() => setChange(!change)}
-            >
-              Register
+            <span className="btn">
+              <Link to="/register"> Register</Link>
             </span>
-            <Link to="/">
-              <span
-                className={change ? "btn" : "btn1"}
-                onClick={() => setChange(!change)}
-              >
-                Sign In
-              </span>
-            </Link>
+
+            <span className="btn1 ">
+              {" "}
+              <Link to="/">Sign In</Link>
+            </span>
           </div>
         </Box>
       </Container>

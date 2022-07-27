@@ -2,6 +2,10 @@
 body {
   margin: 0;
   padding: 0%;
+  background: #3E5151;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to left, #DECBA4, #3E5151);  
+background: linear-gradient(to left, #DECBA4, #3E5151);   */
+
   font-family: -apple-system, BlinkMacSystemFont,'PT Sans' 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
